@@ -1,0 +1,67 @@
+*{
+                              padding: 0%;
+                              margin: 0%;
+                              display: block;
+}
+.My-Color-Theme-1-hex { color: #9DB6EB; }
+.My-Color-Theme-2-hex { color: #7284AB; }
+.My-Color-Theme-3-hex { color: #404A5F; }
+.My-Color-Theme-4-hex { color: #48536B; }
+.My-Color-Theme-5-hex { color: #2E3545; }
+script{
+                              display:none;
+}
+head{
+                              display: none;
+}
+body{
+                              background-color: #2E3545;
+                              color:#9DB6EB;
+}
+header{
+                              background-color:#48536B;
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              
+}
+h1{
+                              font-weight: 300;
+                              font-size: 3rem;
+}
+.h2{
+                              display: flex;
+                              justify-content: center;
+                              margin-top: 2vw;
+                              margin-bottom: 2vw;
+}
+main{
+                              display: grid;
+                              grid-template-rows: auto;
+                              grid-template-columns: auto auto;
+                              position: absolute;
+                              left: calc(50vw - 23vw);
+                              right: calc(50vw - 23vw);
+}
+.div{
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              background-color: #48536B;
+                              height: 10vh;
+                              width: 20vw;
+                              border-radius: 3vh;
+                              border: 2px solid black;
+                              text-decoration: none;
+                              margin-left: 3vw;
+                              margin-right: 3vw;
+}
+a{
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              height: 10vh;
+                              width: 20vw;
+                              text-decoration: none;
+                              color: #9DB6EB;
+}
