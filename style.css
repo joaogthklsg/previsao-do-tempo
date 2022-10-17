@@ -40,8 +40,8 @@ main{
                               grid-template-rows: auto;
                               grid-template-columns: auto auto;
                               position: absolute;
-                              left: calc(50vw - 23vw);
-                              right: calc(50vw - 23vw);
+                              left: calc(50vw - 26vw);
+                              right: calc(50vw - 26vw);
 }
 .div{
                               display: flex;
